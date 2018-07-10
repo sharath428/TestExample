@@ -46,7 +46,7 @@
         <artifactId>spring-boot-maven-plugin</artifactId>
       </plugin>
     </plugins>
-    <finalName>Docker-springboot</finalName>
+    <finalName>docker-springboot</finalName>
   </build>
   <packaging>war</packaging>
 </project>
