@@ -1,4 +1,4 @@
 FROM openJdk:8
-ADD target/Docker-springboot.jar Docker-springboot.jar
+ADD target/docker-springboot.jar docker-springboot.jar
 EXPOSE 9002
-ENTRYPOINT ["java","-jar","Docker-springboot.jar"]
+ENTRYPOINT ["java","-jar","docker-springboot.jar"]
